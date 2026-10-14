@@ -20,6 +20,7 @@
 		15D644FF2B18D35A009234A0 /* RequestSignatureAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D644FE2B18D35A009234A0 /* RequestSignatureAPI.swift */; };
 		15D645032B18D603009234A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D645022B18D603009234A0 /* Constants.swift */; };
 		15FC1E2D2E1325A800950FA6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC1E2C2E1325A000950FA6 /* BaseViewController.swift */; };
+		777DF0F4307FC9B600C1B338 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777DF0F3307FC9B600C1B338 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		15D644FE2B18D35A009234A0 /* RequestSignatureAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSignatureAPI.swift; sourceTree = "<group>"; };
 		15D645022B18D603009234A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		15FC1E2C2E1325A000950FA6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		777DF0F3307FC9B600C1B338 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				004E98E52585F61A00B44317 /* Assets.xcassets */,
 				004E98E72585F61A00B44317 /* LaunchScreen.storyboard */,
 				004E98EA2585F61A00B44317 /* Info.plist */,
+				777DF0F3307FC9B600C1B338 /* SceneDelegate.swift */,
 			);
 			path = TrustlySDKDemoIOS;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				15D644F72B18D0A5009234A0 /* TargetType.swift in Sources */,
 				15D644FF2B18D35A009234A0 /* RequestSignatureAPI.swift in Sources */,
+				777DF0F4307FC9B600C1B338 /* SceneDelegate.swift in Sources */,
 				15D644F52B18D094009234A0 /* BaseAPI.swift in Sources */,
 				004E98E12585F61900B44317 /* MerchantViewController.swift in Sources */,
 				15FC1E2D2E1325A800950FA6 /* BaseViewController.swift in Sources */,
