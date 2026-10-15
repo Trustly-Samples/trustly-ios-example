@@ -18,23 +18,19 @@ class MerchantViewController: BaseViewController {
         super.viewDidLoad()
         
         self.establishData = [
-            "accessId": "A48B73F694C4C8EE6306",
-                              "merchantId" : "110005514",
-                              "currency" : "USD",
-                              "amount" : "1.00",
-                              "merchantReference" : "3D51F3A42EFE499A",
-                              "paymentType" : "Retrieval",
-                              "returnUrl": "/returnUrl",
-                              "cancelUrl": "/cancelUrl",
-                              "requestSignature": "HT5mVOqBXa8ZlvgX2USmPeLns5o=",
-                              "customer.name": "John",
-                              "customer.address.country": "US",
-                       "metadata.deepLinkStrategy": "<[url-scheme, deeplink-url]>",
-                        "metadata.deepLinkUrl": "https://alpha-merchant.tools.devent.trustly.one/start/oauth/app/",
-                              "metadata.urlScheme": "demoapp://",
-                              "description": "Globex Demo",
-                              "env": "sandbox"
-    ]
+            "accessId": ACCESS_ID,
+            "merchantId" : MERCHANT_ID,
+            "description" : "Globex Demo",
+            "merchantReference" : "unique_transaction_reference_001",
+            "amount": "0.00",
+            "paymentType":"Deferred",
+            "currency":"USD",
+            "customer.name": "John",
+            "customer.address.country": "US",
+            "metadata.urlScheme": APP_DEEP_LINK,
+            "metadata.integrationContext": "InAppBrowser",
+            "env":"sandbox"
+        ]
         
         let widgetVC = WidgetViewController(establishData: establishData)
         widgetVC.delegate = self
